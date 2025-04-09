@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120">
+  <!-- 背景 -->
+  <rect width="160" height="120" fill="#98fb98" />
+  
+  <!-- 鱼旅角色 -->
+  <g transform="translate(80, 60)">
+    <!-- 水波纹背景 -->
+    <path d="M-80 20 Q -40 0, 0 20 Q 40 0, 80 20" stroke="#fff" stroke-width="5" fill="none" opacity="0.5" />
+    <path d="M-80 40 Q -40 20, 0 40 Q 40 20, 80 40" stroke="#fff" stroke-width="5" fill="none" opacity="0.5" />
+    
+    <!-- 鱼 -->
+    <path d="M-20 0 Q 0 -20, 20 0 Q 0 20, -20 0" fill="#ff6347" />
+    <circle cx="-10" cy="-5" r="3" fill="#000" />
+    <path d="M20 0 L 40 -10 L 40 10 Z" fill="#ff6347" />
+    
+    <!-- 文字 -->
+    <text x="0" y="50" font-family="'PingFang SC', sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">鱼旅 That's a Journey</text>
+  </g>
+</svg>

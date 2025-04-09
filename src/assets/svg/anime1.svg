@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120">
+  <!-- 背景 -->
+  <rect width="160" height="120" fill="#87ceeb" />
+  
+  <!-- 夏日重现角色 -->
+  <g transform="translate(80, 60)">
+    <!-- 头发 -->
+    <path d="M-30 -30 Q -20 -50, 0 -30 Q 20 -50, 30 -30 Q 40 0, 30 30 Q 15 40, 0 30 Q -15 40, -30 30 Q -40 0, -30 -30" fill="#4169e1" />
+    
+    <!-- 脸 -->
+    <ellipse cx="0" cy="0" rx="25" ry="30" fill="#ffe0bd" />
+    
+    <!-- 眼睛 -->
+    <circle cx="-10" cy="-5" r="5" fill="#fff" />
+    <circle cx="-10" cy="-5" r="3" fill="#000" />
+    <circle cx="10" cy="-5" r="5" fill="#fff" />
+    <circle cx="10" cy="-5" r="3" fill="#000" />
+    
+    <!-- 嘴巴 -->
+    <path d="M-5 15 Q 0 20, 5 15" stroke="#ff6b81" stroke-width="2" fill="none" />
+    
+    <!-- 文字 -->
+    <text x="0" y="50" font-family="'PingFang SC', sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">夏日重现</text>
+  </g>
+</svg>
